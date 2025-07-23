@@ -28,6 +28,8 @@ where
 		sale_date IS NULL
 		OR
 		sale_time IS NULL
+		OR ... ;
+
 ```
 
 ### 2. Exploratory Data Analysis (EDA):
