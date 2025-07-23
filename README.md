@@ -155,9 +155,9 @@ Retail_Sales_SQL_Project – SQL scripts for table creation, data cleaning, and 
 
 
 ## Tools Used:
-PostgreSQL
-pgAdmin (for query execution)
-GitHub (project version control)
+- PostgreSQL
+- pgAdmin4 (for query execution)
+- GitHub (project version control)
 
 
 ## Conclusion
