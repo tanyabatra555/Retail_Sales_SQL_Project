@@ -119,12 +119,12 @@ Certain customers contribute significantly to sales volume.
 
 
 ## Dataset
-- <a href="https://github.com/tanyabatra555/Retail_Sales_SQL_Project/blob/main/SQL%20-%20Retail%20Sales%20Analysis_utf%20.csv"> HR_Dataset </a>
+- <a href="https://github.com/tanyabatra555/Retail_Sales_SQL_Project/blob/main/SQL%20-%20Retail%20Sales%20Analysis_utf%20.csv"> Retail_Sales_Dataset </a>
 
 
 ## Files Included:
-Retail_Sales_SQL_Project.sql – SQL scripts for table creation, data cleaning, and analysis.
-- <a href="https://github.com/tanyabatra555/Retail_Sales_SQL_Project/blob/main/Retail_Sales_SQL_Project.sql"> HR_Dataset </a>
+Retail_Sales_SQL_Project – SQL scripts for table creation, data cleaning, and analysis.
+- <a href="https://github.com/tanyabatra555/Retail_Sales_SQL_Project/blob/main/Retail_Sales_SQL_Project.sql"> Retail_Sales_SQL_Project </a>
 
 
 ## Tools Used:
