@@ -5,7 +5,7 @@ create table Retail_Sales
 		sale_date DATE,
 		sale_time TIME,
 		customer_id INT,
-        gender VARCHAR(15),
+		gender VARCHAR(15),
 		age INT,
 		category VARCHAR(15),
 		quantiy INT,
@@ -31,7 +31,7 @@ where
 		OR
 		customer_id IS NULL
 		OR
-        gender IS NULL
+        	gender IS NULL
 		OR
 		age IS NULL
 		OR
@@ -55,7 +55,7 @@ where
 		OR
 		customer_id IS NULL
 		OR
-        gender IS NULL
+        	gender IS NULL
 		OR
 		age IS NULL
 		OR
