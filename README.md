@@ -13,7 +13,7 @@ The goal is to clean, explore, and analyze the data to uncover valuable business
 
 **4. Business Analysis:** Use SQL to answer specific business questions and derive insights from the sales data.
 
-## 1. Data Cleaning:
+### 1. Data Cleaning:
 Before analysis, null checks were performed and any records with missing values were deleted to ensure data quality.
 '''SQL
 SELECT * FROM Retail_Sales
@@ -22,7 +22,7 @@ WHERE transactions_id IS NULL
    OR ... ;
 '''
 
-## 2. Exploratory Data Analysis (EDA):
+### 2. Exploratory Data Analysis (EDA):
 **Total Sales Records:**
 SELECT COUNT(*) FROM Retail_Sales;
 **Unique Customers:**
@@ -31,10 +31,11 @@ SELECT COUNT(DISTINCT customer_id) FROM Retail_Sales;
 SELECT DISTINCT category FROM Retail_Sales;
 
 
-## 3. Business Questions Answered:
+### 3. Business Questions Answered:
 **Q1: Sales on a Specific Day (e.g., 5th Nov 2022)**
+```SQL
 SELECT * FROM Retail_Sales WHERE sale_date = '2022-11-05';
-
+```
 
 **Q2: Clothing Sales with Quantity > 4 in Nov-2022**
 SELECT * FROM Retail_Sales
