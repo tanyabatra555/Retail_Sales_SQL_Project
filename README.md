@@ -15,11 +15,12 @@ The goal is to clean, explore, and analyze the data to uncover valuable business
 
 ## 1. Data Cleaning:
 Before analysis, null checks were performed and any records with missing values were deleted to ensure data quality.
+'''SQL
 SELECT * FROM Retail_Sales
 WHERE transactions_id IS NULL
    OR sale_date IS NULL
    OR ... ;
-
+'''
 
 ## 2. Exploratory Data Analysis (EDA):
 **Total Sales Records:**
